@@ -1,0 +1,52 @@
+CREATE AND RUN A NEW FILE:
+1.) Open C Lion and create a new .c file.
+2.) Save the file once you're done editing.
+3.) Open terminal and navigate to the desired folder (use bash commands for this).
+4.) Compile the program - type gcc <program name.exstension> -o <program name>
+5.) A new exec file should be created in the folder with the same name as the .c file. We need to run this new file only. type ./<filename> into the terminal. The file should run correctly if there are no errors. 
+
+
+
+Compile: 	      gcc <program name.exstension> -o <program name>
+Compile w/ semaphores: gcc <program name.exstension>  -o objectname -lpthread
+
+Run: ./<program name>
+
+
+
+
+
+
+SSH Commands:
+mkdir <directory name>			// make a new directory
+cd <directory name>			// change directory
+pwd					// display current directory
+ls -l					// list current directory files
+cp <file name> <directory name> 	  	// copy file to directory
+mv <file name> <directory name>		// rename file
+rm -r <directory name>			// delte directory
+vi <file name>				// edit text file
+man <command name>			// display manual of command
+
+SFTP Commands:
+!pwd					// display local end directory
+!ls -l					// list local end directory file
+lcd <directory name>			// change local end directory
+pwd					// display remote end directory
+ls -l					// list remote end directory files
+cd <directory name>			// change remote end directory
+put <file name>				// upload local end file to remote end
+get <file name>				// download remote end file to local end
+mput*.java				// upload all local .java files to remote end
+mget*.java				// download all remote .java files to local end
+quit					// close/ disconnect sftp channel
+
+Other Commands:
+clear					// clear screen 
+cntrl+c					// quit execution/ running
+cntrl+x					// exit editor
+nano+<filename.java>			// edit file
+more+<filename.java>			// look at file, no edit
+cntrl+o					// save all changes when in nano
+cd ..					// go back 1 directory
+bash					// unlock autocompletion & other features

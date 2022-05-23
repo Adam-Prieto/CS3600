@@ -1,0 +1,26 @@
+Midterm Instructions
+--------------------
+
+Complete the given Program ( see below) without changing the outline to synchronize readers and writers trying to access the critical section(CS).
+
+Execute the program without any change see the output and understand the race condition.
+Take the screenshot of the output of given program (with race condition). 
+Modify the program using semaphores constructs to avoid the race condition.(Do not delete any given statements)
+Display the output as given below if the number of readers are 8 and writers are entered as 2.
+Take the screen shot of program output after solving the race condition.
+
+Points: 
+	    Semaphore initialization = 5
+
+            Appropriate semaphore locks and variables used for reader and writer = 20 
+
+            Correct reader function = 5
+
+            Correct writer function = 5
+
+            The program executes without error to give the output = 5
+
+            The output displays reader and writer numbers (see the sample below) = 5 
+
+            Submitted program, screen shots of outputs before and after modification of program = 5
+

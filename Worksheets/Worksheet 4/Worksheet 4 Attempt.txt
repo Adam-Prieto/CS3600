@@ -1,0 +1,23 @@
+Problem 1.)
+
+processes: m.A(); m.B(); m.B(); m.B(); m.B(); m.A(); m.A();
+
+m.A() - x = 11; condition c; y = 9
+m.B() - x =10;
+m.B() - c.wait; x = 9;
+m.B() - c.wait; x = 8;
+m.B() - c.wait; x = 7;
+m.A() - x = 8; condition c; y = 6;
+m.A() - x = 9; condition c; y = 7;
+
+
+Problem 2.)
+
+if (count == N) wait(full);
+
+if (count == 1) signal(empty);
+
+if (count == 0) wait(empty);
+
+if (count == N-1) signal(full);
+ 

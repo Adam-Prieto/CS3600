@@ -1,0 +1,1 @@
+This folder contains a ton of random files that I couldn't get to work from inside the main 3600 folder. Consider opening and reading the various files before implementing any of the code. 
